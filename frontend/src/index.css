@@ -1,0 +1,24 @@
+body {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.card {
+  border: none;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+}
+
+.badge-status-Available {
+  background-color: #198754;
+}
+
+.badge-status-Occupied {
+  background-color: #dc3545;
+}
+
+.badge-status-Maintenance {
+  background-color: #ffc107;
+  color: #000;
+}
